@@ -3,6 +3,8 @@ This is a modified pebble game algorithm written in python,translated from the o
 https://github.com/coldlaugh/pebble-game-algorithm.
 TO run this program, you need to have python.
 By Xinyue Zhao, 2020/8/7
+Reference Brian S. Smith, Magnus Egerstedt, and Ayanna Howard
+Automatic Generation of Persistent Formations for Multi-Agent Networks Under Range Constraints
 '''
 
 import numpy as np
