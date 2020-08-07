@@ -25,7 +25,7 @@ class pebble(object):
     def eucldist(self,coords1,coords2):
         '''Calculates the euclidean distance between 2 lists of coordinates.'''
         coords1, coords2 = np.array(coords1),np.array(coords2)
-        return np.sqrt(np.sum(coords1-coords2)**2)
+        return np.sqrt(np.sum((coords1-coords2)**2))
 
     def calneighbor(self):
         '''Calculates the bonds connecting agents which have limited sensing range. '''
